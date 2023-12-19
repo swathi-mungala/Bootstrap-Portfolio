@@ -8,10 +8,18 @@ padding: 0;
 }
 
 .custom-container-width {
-    /* margin: 0 3vw 0 3vw; */
     width: 80%;
     max-width: none;
 }
+
 p {
     font-size: 1rem;
+}
+ /* Adding a transition effect */
+.btn-shadow {
+    transition: box-shadow 0.3s ease;
+}
+ /* Box shadow on hover */
+.btn-shadow:hover {
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
