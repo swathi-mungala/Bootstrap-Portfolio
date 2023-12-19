@@ -7,3 +7,11 @@ margin: 0;
 padding: 0;
 }
 
+.custom-container-width {
+    /* margin: 0 3vw 0 3vw; */
+    width: 80%;
+    max-width: none;
+}
+p {
+    font-size: 1rem;
+}
